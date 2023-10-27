@@ -1,0 +1,15 @@
+.boxBackground{
+    background-color: lightgrey;
+    padding: 1.875em 0em;
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topRatedItem{
+    width: 6.25em;
+    height: 12.50em;
+    background-color: grey;
+}

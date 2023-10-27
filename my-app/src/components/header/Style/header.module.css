@@ -1,0 +1,5 @@
+.headerBox{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.9375em 0em;
+}
