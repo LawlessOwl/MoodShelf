@@ -1,0 +1,15 @@
+.mainContentBox{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 50% 50%;
+}
+
+.reccentlyUppdate{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.bestGenres{
+    grid-column: 2;
+    grid-row: 2;
+}

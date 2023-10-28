@@ -4,12 +4,12 @@ import style from "./style/topRated.module.css"
 export const TopRated = () => {
     return (
         <div className={style.boxBackground}>
-            <div className={style.box}>
-                <div className={style.topRatedItem}></div>
-                <div className={style.topRatedItem}></div>
-                <div className={style.topRatedItem}></div>
-                <div className={style.topRatedItem}></div>
-            </div>
+            <ul className={style.box}>
+                <li className={style.topRatedItem}></li>
+                <li className={style.topRatedItem}></li>
+                <li className={style.topRatedItem}></li>
+                <li className={style.topRatedItem}></li>
+            </ul>
         </div>
     )
 }

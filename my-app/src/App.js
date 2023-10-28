@@ -1,5 +1,6 @@
 import './App.css';
 import { Header } from './components/header/header';
+import { MainContent } from './components/mainContent/mainContent';
 import { TopRated } from './components/topRated/topRated';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Header />
       <TopRated />
+      <MainContent />
     </div>
     )
 }

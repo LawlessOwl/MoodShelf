@@ -6,9 +6,11 @@
 .box{
     display: flex;
     justify-content: space-evenly;
+    padding: 0px;
 }
 
 .topRatedItem{
+    list-style: none;
     width: 6.25em;
     height: 12.50em;
     background-color: grey;
