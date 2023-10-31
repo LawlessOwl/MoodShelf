@@ -10,8 +10,14 @@
 }
 
 .topRatedItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     list-style: none;
-    width: 6.25em;
-    height: 12.50em;
-    background-color: grey;
+}
+
+.booksCovers{
+    width: 11.25em;
+    height: 16.50em;
 }
